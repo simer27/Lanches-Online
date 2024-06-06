@@ -11,6 +11,10 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddTransient<ILancheRepository,LancheRepository>();   
 builder.Services.AddTransient<ICategoriaRepository,CategoriaRepository>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
 
 string? mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 
@@ -34,6 +38,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession();
+
 
 app.MapControllerRoute(
     name: "default",
