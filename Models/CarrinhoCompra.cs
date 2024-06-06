@@ -1,4 +1,5 @@
 ﻿using Lanches_Online.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Lanches_Online.Models
 {
@@ -81,5 +82,11 @@ namespace Lanches_Online.Models
             return quantidadeLocal;
         }
 
+        public List<CarrinhoCompraItem> GetCarrinhoCompraItens()
+        {
+            return carrinhoCompraItems ?? (carrinhoCompraItems =
+                _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId).
+                Include(s => s.Lanche).ToList());
+        }
     }
 }
