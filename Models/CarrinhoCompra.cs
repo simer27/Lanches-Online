@@ -88,5 +88,16 @@ namespace Lanches_Online.Models
                 _context.CarrinhoCompraItens.Where(c => c.CarrinhoCompraId == CarrinhoCompraId).
                 Include(s => s.Lanche).ToList());
         }
+
+        public void LimparCarrinho()
+        {
+            var carrinhoItens = _context.CarrinhoCompraItens
+                .Where(carrinho => carrinho.CarrinhoCompraId == CarrinhoCompraId);
+
+            _context.CarrinhoCompraItens.RemoveRange(carrinhoItens);
+
+            _context.SaveChanges();
+        }
+
     }
 }
