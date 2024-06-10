@@ -33,12 +33,36 @@
       "PackagePath": "staticwebassets\\images\\cart-5-16.ico"
     },
     {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\correspondencia.png",
+      "PackagePath": "staticwebassets\\images\\correspondencia.png"
+    },
+    {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\excluir.png",
       "PackagePath": "staticwebassets\\images\\excluir.png"
     },
     {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\faleconosco1.jpg",
+      "PackagePath": "staticwebassets\\images\\faleconosco1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\house-24.ico",
+      "PackagePath": "staticwebassets\\images\\house-24.ico"
+    },
+    {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mercado.png",
       "PackagePath": "staticwebassets\\images\\mercado.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mobile-app.png",
+      "PackagePath": "staticwebassets\\images\\mobile-app.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\phone-call.png",
+      "PackagePath": "staticwebassets\\images\\phone-call.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\support.png",
+      "PackagePath": "staticwebassets\\images\\support.png"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\js\\site.js",
