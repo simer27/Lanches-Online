@@ -1,4 +1,6 @@
-﻿using Lanches_Online.Repositories.Interfaces;
+﻿
+using Lanches_Online.Models;
+using Lanches_Online.Repositories.Interfaces;
 using Lanches_Online.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
@@ -12,21 +14,52 @@ namespace Lanches_Online.Controllers
         {
             _lancheRepository = lancheRepository;
         }
-        public IActionResult List()
+        public IActionResult List(string categoria)
         {
-            //ViewData["Titulo"] = "Todos os Lanches";
-            //ViewData["Data"] = DateTime.Now;
 
+            IEnumerable<Lanche> lanches;
+            string categoriaAtual = string.Empty;
 
-            //var lanches = _lancheRepository.Lanches;
-            //var totalLanches = lanches.Count();
+            if(string.IsNullOrEmpty(categoria))
+            {
+                lanches = _lancheRepository.Lanches.OrderBy(l => l.LancheId);
+                categoriaAtual = "Todos os lanches";
+            }
+            else
+            {
 
-            //ViewBag.Total = "Total de Lanches";
-            //ViewBag.TotalLanches = totalLanches;
-            //return View(lanches);
-            var lanchesListViewModel = new LancheListViewModel();
-            lanchesListViewModel.Lanches = _lancheRepository.Lanches;
-            lanchesListViewModel.CategoriaAtual = "Categoria Atual";
+                if (string.Equals("Lanches", categoria, StringComparison.OrdinalIgnoreCase))
+                {
+                    lanches = _lancheRepository.Lanches
+                        .Where(l => l.Categoria.Nome.Equals("Lanches"))
+                        .OrderBy(l => l.Nome);
+                }
+                else if(string.Equals("Bebidas", categoria, StringComparison.OrdinalIgnoreCase))
+                {
+                    lanches = _lancheRepository.Lanches
+                        .Where(l => l.Categoria.Nome.Equals("Bebidas"))
+                        .OrderBy(l => l.Nome);
+                }
+                else if (string.Equals("Batatas", categoria, StringComparison.OrdinalIgnoreCase))
+                {
+                    lanches = _lancheRepository.Lanches
+                        .Where(l => l.Categoria.Nome.Equals("Batatas"))
+                        .OrderBy(l => l.Nome);
+                }
+                else 
+                {
+                    lanches = _lancheRepository.Lanches
+                        .Where(l => l.Categoria.Nome.Equals("Sobremesas"))
+                        .OrderBy(l => l.Nome);
+                }
+                categoriaAtual = categoria;
+            }
+
+            var lanchesListViewModel = new LancheListViewModel
+            {
+                Lanches = lanches,
+                CategoriaAtual = categoriaAtual
+            };
 
             return View(lanchesListViewModel);
         }
