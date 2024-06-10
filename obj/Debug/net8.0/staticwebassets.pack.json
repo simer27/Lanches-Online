@@ -13,8 +13,28 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\adicionar.png",
+      "PackagePath": "staticwebassets\\images\\adicionar.png"
+    },
+    {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_1.jpg",
       "PackagePath": "staticwebassets\\images\\carrossel_1.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_10.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_10.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_11.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_11.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_12.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_12.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_13.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_13.jpg"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_2.jpg",
@@ -27,6 +47,30 @@
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_4.jpg",
       "PackagePath": "staticwebassets\\images\\carrossel_4.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_6.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_6.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_7.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_7.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_8.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_8.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_9.jpg",
+      "PackagePath": "staticwebassets\\images\\carrossel_9.jpg"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\excluir.png",
+      "PackagePath": "staticwebassets\\images\\excluir.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mercado.png",
+      "PackagePath": "staticwebassets\\images\\mercado.png"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\js\\site.js",
