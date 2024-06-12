@@ -99,12 +99,14 @@ namespace Lanches_Online.Models
             _context.SaveChanges();
         }
 
+
         public decimal GetCarrinhoCompraTotal()
         {
-            var total = _context.CarrinhoCompraItens
+            var itens = _context.CarrinhoCompraItens
                 .Where(c => c.CarrinhoCompraId == CarrinhoCompraId)
-                .Select(s => s.Lanche.Preco*s.Quantidade).Sum();
+                .ToList();            
 
+            var total = itens.Sum(c => c.Lanche.Preco * c.Quantidade);
             return total;
         }
     }

@@ -2,7 +2,7 @@
 
     <div class="Container">
         <div class="row">
-            <img src="~/images~/images/mercado.png" alt="logoCart" />
+            <img src="~/images/cart-icon.png" style="height: 100px; width: 120px;" />
             <div>
                 <h4> Seu Carrinho de compras : </h4>
             </div>
@@ -28,14 +28,10 @@
                                 @((item.Quantidade * item.Lanche.Preco).ToString("c"))
                            </td>
 
-                           <td class="text-center">
-                               <a asp-controller="CarrinhoCompra" asp-action="AdicionarItemNoCarrinhoCompra"
-                                  asp-route-lancheId="@item.Lanche.LancheId">
-                                   <img src="~/images/adicionar.png />
-                               </a>
+                           <td class="text-center">                               
                                <a asp-controller="CarrinhoCompra" asp-action="RemoverItemDoCarrinhoCompra"
                                   asp-route-lancheId="@item.Lanche.LancheId">
-                                   <img src="~/images/excluir.png" />
+                                   <img src="~/images/lixo.png" height="20" width="20"/>
                                </a>
                            </td>
                        </tr> 
