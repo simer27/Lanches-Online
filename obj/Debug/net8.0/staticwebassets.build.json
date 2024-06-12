@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vGlc6zV8XOxsAqgx5bF6g2NGxe0OcgayhPZB7dshanM=",
+  "Hash": "5mjaaKelK8pAtS1T5cVCKuWQRhGrG4dW8EKORFShhwk=",
   "Source": "Lanches_Online",
   "BasePath": "_content/Lanches_Online",
   "Mode": "Default",
@@ -93,25 +93,6 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\adicionar.png",
-      "SourceId": "Lanches_Online",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
-      "BasePath": "_content/Lanches_Online",
-      "RelativePath": "images/adicionar.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\adicionar.png"
-    },
-    {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_11.jpg",
       "SourceId": "Lanches_Online",
       "SourceType": "Discovered",
@@ -188,6 +169,25 @@
       "OriginalItemSpec": "wwwroot\\images\\cart-5-16.ico"
     },
     {
+      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\cart-icon.png",
+      "SourceId": "Lanches_Online",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
+      "BasePath": "_content/Lanches_Online",
+      "RelativePath": "images/cart-icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cart-icon.png"
+    },
+    {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\correspondencia.png",
       "SourceId": "Lanches_Online",
       "SourceType": "Discovered",
@@ -205,25 +205,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\correspondencia.png"
-    },
-    {
-      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\excluir.png",
-      "SourceId": "Lanches_Online",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
-      "BasePath": "_content/Lanches_Online",
-      "RelativePath": "images/excluir.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\excluir.png"
     },
     {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\faleconosco1.jpg",
@@ -264,12 +245,12 @@
       "OriginalItemSpec": "wwwroot\\images\\house-24.ico"
     },
     {
-      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mercado.png",
+      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\lixo.png",
       "SourceId": "Lanches_Online",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
       "BasePath": "_content/Lanches_Online",
-      "RelativePath": "images/mercado.png",
+      "RelativePath": "images/lixo.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,7 +261,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\mercado.png"
+      "OriginalItemSpec": "wwwroot\\images\\lixo.png"
     },
     {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mobile-app.png",
@@ -300,25 +281,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\mobile-app.png"
-    },
-    {
-      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\phone-call.png",
-      "SourceId": "Lanches_Online",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
-      "BasePath": "_content/Lanches_Online",
-      "RelativePath": "images/phone-call.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\phone-call.png"
     },
     {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\support.png",

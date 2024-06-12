@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\adicionar.png",
-      "PackagePath": "staticwebassets\\images\\adicionar.png"
-    },
-    {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_11.jpg",
       "PackagePath": "staticwebassets\\images\\carrossel_11.jpg"
     },
@@ -33,12 +29,12 @@
       "PackagePath": "staticwebassets\\images\\cart-5-16.ico"
     },
     {
-      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\correspondencia.png",
-      "PackagePath": "staticwebassets\\images\\correspondencia.png"
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\cart-icon.png",
+      "PackagePath": "staticwebassets\\images\\cart-icon.png"
     },
     {
-      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\excluir.png",
-      "PackagePath": "staticwebassets\\images\\excluir.png"
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\correspondencia.png",
+      "PackagePath": "staticwebassets\\images\\correspondencia.png"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\faleconosco1.jpg",
@@ -49,16 +45,12 @@
       "PackagePath": "staticwebassets\\images\\house-24.ico"
     },
     {
-      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mercado.png",
-      "PackagePath": "staticwebassets\\images\\mercado.png"
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\lixo.png",
+      "PackagePath": "staticwebassets\\images\\lixo.png"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\mobile-app.png",
       "PackagePath": "staticwebassets\\images\\mobile-app.png"
-    },
-    {
-      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\phone-call.png",
-      "PackagePath": "staticwebassets\\images\\phone-call.png"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\support.png",
