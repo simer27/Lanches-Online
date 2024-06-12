@@ -28,30 +28,34 @@ namespace Lanches_Online.Controllers
             else
             {
 
-                if (string.Equals("Lanches", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    lanches = _lancheRepository.Lanches
-                        .Where(l => l.Categoria.Nome.Equals("Lanches"))
-                        .OrderBy(l => l.Nome);
-                }
-                else if(string.Equals("Bebidas", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    lanches = _lancheRepository.Lanches
-                        .Where(l => l.Categoria.Nome.Equals("Bebidas"))
-                        .OrderBy(l => l.Nome);
-                }
-                else if (string.Equals("Batatas", categoria, StringComparison.OrdinalIgnoreCase))
-                {
-                    lanches = _lancheRepository.Lanches
-                        .Where(l => l.Categoria.Nome.Equals("Batatas"))
-                        .OrderBy(l => l.Nome);
-                }
-                else 
-                {
-                    lanches = _lancheRepository.Lanches
-                        .Where(l => l.Categoria.Nome.Equals("Sobremesas"))
-                        .OrderBy(l => l.Nome);
-                }
+                //if (string.Equals("Lanches", categoria, StringComparison.OrdinalIgnoreCase))
+                //{
+                //    lanches = _lancheRepository.Lanches
+                //        .Where(l => l.Categoria.Nome.Equals("Lanches"))
+                //        .OrderBy(l => l.Nome);
+                //}
+                //else if(string.Equals("Bebidas", categoria, StringComparison.OrdinalIgnoreCase))
+                //{
+                //    lanches = _lancheRepository.Lanches
+                //        .Where(l => l.Categoria.Nome.Equals("Bebidas"))
+                //        .OrderBy(l => l.Nome);
+                //}
+                //else if (string.Equals("Batatas", categoria, StringComparison.OrdinalIgnoreCase))
+                //{
+                //    lanches = _lancheRepository.Lanches
+                //        .Where(l => l.Categoria.Nome.Equals("Batatas"))
+                //        .OrderBy(l => l.Nome);
+                //}
+                //else 
+                //{
+                //    lanches = _lancheRepository.Lanches
+                //        .Where(l => l.Categoria.Nome.Equals("Sobremesas"))
+                //        .OrderBy(l => l.Nome);
+                //}
+
+                lanches= _lancheRepository.Lanches
+                    .Where(l => l.Categoria.Nome.Equals(categoria))
+                    .OrderBy(c => c.Nome);
                 categoriaAtual = categoria;
             }
 
