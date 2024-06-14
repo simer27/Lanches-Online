@@ -23,7 +23,7 @@ namespace Lanches_Online.Controllers
             if(string.IsNullOrEmpty(categoria))
             {
                 lanches = _lancheRepository.Lanches.OrderBy(l => l.LancheId);
-                categoriaAtual = "Todos os lanches";
+                categoriaAtual = "Todos os Produtos";
             }
             else
             {           
@@ -57,7 +57,7 @@ namespace Lanches_Online.Controllers
             if(string.IsNullOrEmpty(searchString))
             {
                 lanches = _lancheRepository.Lanches.OrderBy(p => p.LancheId);
-                categiaAtual = "Todos os Lanches";
+                categiaAtual = "Todos os Produtos";
             }
             else
             {
