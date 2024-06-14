@@ -26,32 +26,7 @@ namespace Lanches_Online.Controllers
                 categoriaAtual = "Todos os lanches";
             }
             else
-            {
-
-                //if (string.Equals("Lanches", categoria, StringComparison.OrdinalIgnoreCase))
-                //{
-                //    lanches = _lancheRepository.Lanches
-                //        .Where(l => l.Categoria.Nome.Equals("Lanches"))
-                //        .OrderBy(l => l.Nome);
-                //}
-                //else if(string.Equals("Bebidas", categoria, StringComparison.OrdinalIgnoreCase))
-                //{
-                //    lanches = _lancheRepository.Lanches
-                //        .Where(l => l.Categoria.Nome.Equals("Bebidas"))
-                //        .OrderBy(l => l.Nome);
-                //}
-                //else if (string.Equals("Batatas", categoria, StringComparison.OrdinalIgnoreCase))
-                //{
-                //    lanches = _lancheRepository.Lanches
-                //        .Where(l => l.Categoria.Nome.Equals("Batatas"))
-                //        .OrderBy(l => l.Nome);
-                //}
-                //else 
-                //{
-                //    lanches = _lancheRepository.Lanches
-                //        .Where(l => l.Categoria.Nome.Equals("Sobremesas"))
-                //        .OrderBy(l => l.Nome);
-                //}
+            {           
 
                 lanches= _lancheRepository.Lanches
                     .Where(l => l.Categoria.Nome.Equals(categoria))
@@ -72,6 +47,35 @@ namespace Lanches_Online.Controllers
         {
             var lanche= _lancheRepository.Lanches.FirstOrDefault(l => l.LancheId == lancheId);
             return View(lanche);
+        }
+
+        public ViewResult Search(string searchString)
+        {
+            IEnumerable<Lanche> lanches;
+            string categiaAtual = string.Empty;
+
+            if(string.IsNullOrEmpty(searchString))
+            {
+                lanches = _lancheRepository.Lanches.OrderBy(p => p.LancheId);
+                categiaAtual = "Todos os Lanches";
+            }
+            else
+            {
+                lanches = _lancheRepository.Lanches
+                    .Where(p => p.Nome.ToLower().Contains(searchString.ToLower()));
+
+                if (lanches.Any())
+
+                    categiaAtual = "Lanches";
+                else
+                    categiaAtual = "Nenhum lanche foi encontrado";
+            }
+
+            return View("~/Views/Lanche/List.cshtml", new LancheListViewModel
+            {
+                Lanches= lanches,
+                CategoriaAtual = categiaAtual
+            });
         }
     }
 }
