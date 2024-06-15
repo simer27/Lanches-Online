@@ -46,8 +46,8 @@ namespace Lanches_Online.Models
         [Required(ErrorMessage = "Informe seu email")]
         [StringLength(50)]
         [DataType(DataType.EmailAddress)]
-        [RegularExpression(@"(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$)",
-        ErrorMessage = "O email não possui um formato correto")]
+        /*[RegularExpression(@"(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$)",
+        ErrorMessage = "O email não possui um formato correto")]*/
         public string? Email { get; set; }
 
         [ScaffoldColumn(false)]
