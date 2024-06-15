@@ -31,9 +31,11 @@ namespace Lanches_Online.Models
         public string? Cep { get; set; }
 
         [StringLength(10)]
+        [Required(ErrorMessage = "Informe o seu Estado")]
         public string? Estado { get; set; }
 
         [StringLength(50)]
+        [Required(ErrorMessage = "Informe a sua Cidade")]
         public string? Cidade { get; set; }
 
         [Required(ErrorMessage = "Informe o seu Telefone")]
