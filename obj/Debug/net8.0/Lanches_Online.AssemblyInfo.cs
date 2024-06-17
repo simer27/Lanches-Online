@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lanches_Online")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0862729d4f15ee26a4c36a0924de104a2de7d88d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3a07118d33bad4fe22e4f04bcaffc09fb4063ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lanches_Online")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lanches_Online")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

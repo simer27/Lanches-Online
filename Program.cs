@@ -2,13 +2,17 @@ using Lanches_Online.Context;
 using Lanches_Online.Models;
 using Lanches_Online.Repositories;
 using Lanches_Online.Repositories.Interfaces;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>()
+    .AddDefaultTokenProviders();
 
 builder.Services.AddTransient<ILancheRepository,LancheRepository>();   
 builder.Services.AddTransient<ICategoriaRepository,CategoriaRepository>();
@@ -24,6 +28,8 @@ string? mySqlConnection = builder.Configuration.GetConnectionString("DefaultConn
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseMySql(mySqlConnection,
         ServerVersion.AutoDetect(mySqlConnection)));
+
+
 
 var app = builder.Build();  
 
@@ -42,6 +48,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseSession();
+
+app.UseAuthentication();
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "categoriaFiltro",
