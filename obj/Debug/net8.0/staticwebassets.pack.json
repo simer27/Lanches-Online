@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\LogoHamburger.png",
+      "PackagePath": "staticwebassets\\images\\LogoHamburger.png"
+    },
+    {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\add-users.png",
       "PackagePath": "staticwebassets\\images\\add-users.png"
     },
