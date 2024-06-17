@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5mjaaKelK8pAtS1T5cVCKuWQRhGrG4dW8EKORFShhwk=",
+  "Hash": "OJMs/dOiNIce7Sa+DUIURbieJMu1akvRuHH38szTw3M=",
   "Source": "Lanches_Online",
   "BasePath": "_content/Lanches_Online",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\add-users.png",
+      "SourceId": "Lanches_Online",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
+      "BasePath": "_content/Lanches_Online",
+      "RelativePath": "images/add-users.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\add-users.png"
     },
     {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_11.jpg",
@@ -300,6 +319,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\support.png"
+    },
+    {
+      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\user-login.png",
+      "SourceId": "Lanches_Online",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
+      "BasePath": "_content/Lanches_Online",
+      "RelativePath": "images/user-login.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\user-login.png"
     },
     {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\js\\site.js",

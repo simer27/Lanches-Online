@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\add-users.png",
+      "PackagePath": "staticwebassets\\images\\add-users.png"
+    },
+    {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_11.jpg",
       "PackagePath": "staticwebassets\\images\\carrossel_11.jpg"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\support.png",
       "PackagePath": "staticwebassets\\images\\support.png"
+    },
+    {
+      "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\user-login.png",
+      "PackagePath": "staticwebassets\\images\\user-login.png"
     },
     {
       "Id": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\js\\site.js",
