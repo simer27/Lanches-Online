@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Aam2+Fz8z1I1ZH3Wq0mYuQc0VXCdw+EG9D/hRDP2Ckg=",
+  "Hash": "XbJXIeQhDPYVOYvpKEg3jV9wOTpEWFk6GrqnUXx2Swk=",
   "Source": "Lanches_Online",
   "BasePath": "_content/Lanches_Online",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\add-users.png"
+    },
+    {
+      "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\AdminArea.png",
+      "SourceId": "Lanches_Online",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\",
+      "BasePath": "_content/Lanches_Online",
+      "RelativePath": "images/AdminArea.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\AdminArea.png"
     },
     {
       "Identity": "C:\\Dev\\Projetos_C#\\MVC\\Lanches_Online\\Lanches_Online\\wwwroot\\images\\carrossel_11.jpg",
